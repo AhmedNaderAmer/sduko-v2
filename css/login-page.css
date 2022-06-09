@@ -1,0 +1,59 @@
+body {
+    background-image: url(../backgrunds/Low-poly-planet-8k.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    margin: 130px auto;
+  }
+  
+  .login-form form {
+    border-radius: 30%;
+    background-color: #f5f5f5c4;
+    color: #fff;
+    width: 23rem;
+    margin: 0 auto;
+    padding: 3rem 2rem 2rem 2rem;
+    border-radius: 30px;
+  }
+  
+  .login-form label {
+    font-size: 40px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    display: inline;
+    margin: 20px 20px 20px 0px;
+  }
+  
+  .login-form input,
+  .login-form select {
+    margin-bottom: 1.9rem;
+    font-size: 1.2rem;
+    height: 1.9rem;
+    width: 20rem;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    margin: 20px 20px 20px 40px;
+  }
+  
+  .login-form button {
+    margin-top: 30px;
+    margin-left: 90px;
+    display: block;
+    padding: 5px 25px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

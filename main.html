@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1.0 user-scalable=no"
+    />
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    
+  </head>
+
+  <body>
+    <h1 style="color: whitesmoke">Sudoku For Kides</h1>
+    <hr />
+    <div id="conf" class="confirm-overlay">
+      <div class="confirm-container">
+        <h1 class="confirm-message" id="timeout"></h1>
+        <h1 class="confirm-message">
+          Do you want to play again <span style="color: red">?</span>
+        </h1>
+        <button id="no" class="no-modal-btn" onclick="confirm_no()">No</button>
+        <button id="yes" class="yes-modal-btn" onclick="confirm_yes()">
+          Yes
+        </button>
+      </div>
+    </div>
+
+    <div id="pop_up" class="modal-overlay">
+      <div class="modal-container">
+        <h1 class="congratulation-message">
+          <span style="color: red">Congratulations</span>, good job! you are
+          Awesome!
+        </h1>
+        <button class="close-modal-btn" onclick="remove_alert()">&#215;</button>
+      </div>
+    </div>
+
+    <div class="topImagesWithName">
+      <ul class="header_for_pre_game">
+        <li class="textDivTopPage playerName">
+          Welcome:<span class="playerName" id="player"></span>
+        </li>
+        <li id="timer" class="textDivTopPage timer">00:00</li>
+      </ul>
+      <ul id="imagesWithNumbers" class="header_for_pre_game">
+        <button id="startButton" class="startButton">Start</button>
+      </ul>
+    </div>
+
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br />
+    <!-- <div id="digits">
+        </div> -->
+        <script src="./js/main.js"></script>
+  </body>
+</html>

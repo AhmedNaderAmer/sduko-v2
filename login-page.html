@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sudoku</title>
+    <link rel="stylesheet" href="./css/login-page.css">
+</head>
+
+<body>
+    <div class="login-form">
+        <form method="get" action="Choosing-Groups.html" onsubmit="store_cookie()">
+            <label>Type Your Name</label>
+            <input type="text" id="User" name="username" required />
+            <label>Select Level</label>
+            <select name="Level_Num" id="select">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+            </select>
+            <button id="submit">Enter the Game</button>
+
+        </form>
+    </div>
+    <script src="./js/Login.js"></script>
+</body>
+
+</html>

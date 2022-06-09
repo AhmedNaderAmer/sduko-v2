@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url(../backgrunds/Star-wars-land-at-night-concept-art-wide-8k.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  margin: 0 auto;
+}
+hr {
+  width: 500px;
+  color:whitesmoke;
+}
+
+#errors {
+  color: red;
+}
+
+#board {
+  width: 66%;
+  margin: 0 auto;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  padding-left: 70px;
+}
+
+.tile {
+  width: 48px;
+  height: 48px;
+  border: 1px solid lightgray;
+
+  /* Text */
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imges {
+  width: 44px;
+  height: 44px;
+  border: 1px solid black;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imges-selected {
+  opacity: 0.5;
+}
+
+.tile-start {
+  background-color: black;
+  opacity: 0.8;
+}
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
+}
